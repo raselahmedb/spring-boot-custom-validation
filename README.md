@@ -8,4 +8,16 @@ Custom Validation project for Spring Boot
 
 [Spring Boot 3.1.4]()
 
+```
+POST https://localhost:8080/signup
+{
+    "username": "raselahmedb",
+    "password": "Ab@123456",
+    "confirmPassword": "Ab@123456"
+}
+
+if valid return Success!
+not valid return error message!
+```
+
 
